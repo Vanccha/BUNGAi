@@ -1,0 +1,27 @@
+# Gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Veritabanları (yerel veri, seed ile yeniden oluşur)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# Node / build
+node_modules/
+dist/
+
+# Diğer
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
